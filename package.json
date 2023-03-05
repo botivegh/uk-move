@@ -11,6 +11,7 @@
     "@deck.gl/carto": "8.6.5",
     "@turf/bbox-polygon": "^6.3.0",
     "@turf/boolean-intersects": "^6.3.0",
+    "@vue/runtime-dom": "^3.2.47",
     "core-js": "^3.6.5",
     "deck.gl": "8.6.5",
     "echarts": "^5.0.2",
