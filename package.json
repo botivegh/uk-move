@@ -19,6 +19,7 @@
     "vue-echarts": "6.0.0-rc.4",
     "vue-material": "^1.0.0-beta-15",
     "vue-router": "^3.5.1",
+    "vuetify": "^2.6.0",
     "vuex": "^3.6.2",
     "yarn": "^1.22.19"
   },
@@ -32,7 +33,9 @@
     "eslint-plugin-vue": "^6.2.2",
     "sass": "^1.32.8",
     "sass-loader": "^10",
-    "vue-template-compiler": "^2.6.11"
+    "vue-cli-plugin-vuetify": "~2.5.8",
+    "vue-template-compiler": "^2.6.11",
+    "vuetify-loader": "^1.7.0"
   },
   "eslintConfig": {
     "root": true,

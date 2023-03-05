@@ -5,6 +5,7 @@ import store from './store'
 import { MdLayout, MdSwitch } from 'vue-material/dist/components'
 import 'vue-material/dist/vue-material.min.css'
 import 'vue-material/dist/theme/default.css'
+import vuetify from './plugins/vuetify'
 
 for (const component of [MdLayout, MdSwitch]) {
   Vue.use(component)
@@ -58,6 +59,7 @@ requireComponent.keys().forEach(fileName => {
 new Vue({
   router,
   store,
+  vuetify,
   render: h => h(AppShell)
 }).$mount('#app')
 
