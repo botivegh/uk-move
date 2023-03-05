@@ -1,19 +1,27 @@
-/**
- *  HomeSidebar.vue
-**/
-/* template import */
-<template src="./home-sidebar.html"></template>
-/* style import */
-<style lang="scss" src="./home-sidebar.scss"></style>
+<template>
+  <!-- HomeSidebar template file -->
+  <div class="sidebar-container">
+    <LayerSelector></LayerSelector>
+    <BarChart></BarChart>
+  </div>
+</template>
 <script>
-import LayerSelector from '../layer-selector/LayerSelector.vue';
-import BarChart from '../bar-chart/BarChart.vue';
+import LayerSelector from "../layer-selector/LayerSelector.vue";
+import BarChart from "../bar-chart/BarChart.vue";
 
 export default {
-  name: 'HomeSidebar',
+  name: "HomeSidebar",
   components: {
     LayerSelector,
-    BarChart
-  }
-}
+    BarChart,
+  },
+};
 </script>
+<style lang="scss" scoped>
+
+.sidebar-container {
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+}
+</style>

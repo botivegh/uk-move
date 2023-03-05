@@ -1,22 +1,26 @@
-/**
- *  AppShell.vue
-**/
-/* template import */
-<template src="./app-shell.html"></template>
-/* style import */
-<style scoped lang="scss" src="./app-shell.scss"></style>
+<template>
+  <div class="app-shell">
+    <router-view></router-view>
+  </div>
+</template>
 <script>
 export default {
-  name: 'AppShell',
+  name: "AppShell",
   computed: {
-    routes () {
+    routes() {
       return [
         {
-          to: { name: 'home' },
-          name: 'Home'
-        }
-      ]
-    }
-  }
-}
+          to: { name: "home" },
+          name: "Home",
+        },
+      ];
+    },
+  },
+};
 </script>
+<style>
+.app-shell {
+  width: 100%;
+  height: 100%;
+}
+</style>
