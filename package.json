@@ -13,7 +13,7 @@
     "@turf/boolean-intersects": "^6.3.0",
     "@vue/runtime-dom": "^3.2.47",
     "core-js": "^3.6.5",
-    "deck.gl": "8.6.5",
+    "deck.gl": "8.9.4",
     "echarts": "^5.0.2",
     "mapbox-gl": "1.13.0",
     "vue": "^2.6.11",

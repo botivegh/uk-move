@@ -21,7 +21,7 @@ export default {
     layerManager.destroy();
   },
   computed: {
-    ...mapState(MODULE_NAME, ["viewState", "basemap"]),
+    ...mapState(MODULE_NAME, ["viewState", "basemap", "mapboxStyle", "mapboxApiKey"]),
   },
   methods: {
     ...mapMutations(MODULE_NAME, [
@@ -35,8 +35,9 @@ export default {
       }
       layerManager.init({
         container: "#map",
-        mapStyle: this.basemap,
+        mapStyle: this.mapboxStyle,
         viewState: this.viewState,
+        accessToken: this.mapboxApiKey,
         onViewStateChange: ({ viewState }) => {
           this[MUTATIONS.SET_VIEWSTATE](viewState);
         },

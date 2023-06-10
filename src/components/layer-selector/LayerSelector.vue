@@ -1,11 +1,11 @@
 <template>
   <div class="switch-container">
     <h3 class="title">Layers</h3>
-    <div v-if="mapLoaded_">
+    <div v-if="mapLoaded_ && layersData.lenght > 0">
       <md-switch
         class="md-primary"
         v-for="l of layersData"
-        :key="l"
+        :key="l.id"
         v-model="l.isVisible"
         @change="handleChange(l.id)"
       >
@@ -49,7 +49,6 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-
 .switch-container {
   display: flex;
   flex-direction: column;
