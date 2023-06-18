@@ -1,0 +1,192 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.9549624928713456,
+            52.5203768107815
+          ]
+        },
+        "properties": {}
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -2.0774459067778253,
+            51.74110522837384
+          ]
+        },
+        "properties": {}
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.4960299706109481,
+            51.4203175319455
+          ]
+        },
+        "properties": {}
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.021879174980085736,
+            51.89077404320412
+          ]
+        },
+        "properties": {}
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.6265204044634629,
+            51.611256748394936
+          ]
+        },
+        "properties": {}
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.6769722017648974,
+            51.03149939407095
+          ]
+        },
+        "properties": {}
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.6601400168624707,
+            51.02337938755784
+          ]
+        },
+        "properties": {}
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -2.898344694260004,
+            51.35070394352988
+          ]
+        },
+        "properties": {}
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -2.9455937786719915,
+            52.5791363702711
+          ]
+        },
+        "properties": {}
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.4455704755397676,
+            53.72087865485324
+          ]
+        },
+        "properties": {}
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.31058327748311854,
+            53.190520140387065
+          ]
+        },
+        "properties": {}
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -2.868344792104949,
+            55.98729795499676
+          ]
+        },
+        "properties": {}
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -2.6449574818449264,
+            53.95242230438069
+          ]
+        },
+        "properties": {}
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -3.0367588663927165,
+            53.3764591925912
+          ]
+        },
+        "properties": {}
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -3.7853236044777816,
+            51.6395803016359
+          ]
+        },
+        "properties": {}
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -4.068512831439932,
+            50.40872858082909
+          ]
+        },
+        "properties": {}
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.155361761880755,
+            50.84962929861828
+          ]
+        },
+        "properties": {}
+      }
+    ]
+  }

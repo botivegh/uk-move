@@ -4,9 +4,9 @@
 import { BASEMAP, API_VERSIONS } from '@deck.gl/carto'
 
 export const initialViewState = () => ({
-  longitude: -97.2,
-  latitude: 44.33,
-  zoom: 3,
+  latitude: 51.5794, 
+  longitude: -0.1977,
+  zoom: 6,
 })
 
 export const state = {
